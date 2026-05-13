@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Course Page</title>
+</head>
+
+<body>
+    <div>
+        <h1>Penetration Testing Diploma : Zero to Hero</h1>
+        <p>Certified Track by IEEE - Zagazig University Branch</p>
+    </div>
+    <hr>
+    <div>
+        <div>
+            <h2 style="margin-bottom: 5px;">Course Introduction Video</h2>
+            <video controls muted autoplay poster="../Media/Images/Cybersecurity.png" width="500" height="400">
+                <source src="../Media/Videos/El-Wazan.mp4" type="video/mp4">
+                Your browser does not support the audio element.
+            </video>
+            <p>In this video, you will learn the Basic concepts of Ethical hacking</p>
+        </div>
+        <div>
+            <h2>Course Syllabus (Study Plan)</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Module No</th>
+                        <th>Lesson Title</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Linux & Network Fundamentals</td>
+                        <td>10 Hours</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Security+</td>
+                        <td>10 Hours</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Web Penetration Testing</td>
+                        <td>10 Hours</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h2>Listen to Advice from the Track Lead</h2>
+            <audio controls muted>
+                <source src="../Media/Audios/El-Ostora.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <h2>Register Now to Join the Course</h2>
+        <div>
+            <fieldset>
+                <legend>Student Personal Information</legend>
+                <form action="../Task-1/Task-1b/server/test.py" method="post">
+                    <div>
+                        <label for="name">Full Name</label>
+                        <br>
+                        <input type="text" name="full_name" id="name" placeholder="Enter your full name" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="mail">Email Address:</label>
+                        <br>
+                        <input type="email" name="email" id="mail" placeholder="name@example.com" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="code">Current Coding Level</label>
+                        <br>
+                        <input type="range" name="coding_level" id="code" min="0" max="100" value="50" step="10"
+                            required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="date">Preferred Start Date:</label>
+                        <br>
+                        <input type="date" name="date" id="date">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="color">Preferred Certificate Theme Color:</label>
+                        <br>
+                        <input type="color" name="certificate_color" id="color">
+                    </div>
+                    <br>
+                    <input type="submit" value="Confirm Enrollment">
+                    <input type="submit" value="Clear Form">
+                </form>
+            </fieldset>
+        </div>
+        <p>All Rights Reserved &copy; 2026 - IEEE Cybersecurity Track</p>
+    </div>
+</body>
+
+</html>
