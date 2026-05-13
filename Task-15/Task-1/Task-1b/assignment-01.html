@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Assignment-01</title>
+</head>
+
+<body>
+    <!-- Username, Password, Mobile, Email, Subject -->
+    <form action="server/test.py" method="post">
+        <input type="hidden" name="num" value="12">
+        <div>
+            <label for="username">Username</label>
+            <br>
+            <input type="text" name="name" id="username" required placeholder="enter your username">
+        </div>
+        <hr>
+        <div>
+            <label for="pass">Password</label>
+            <br>
+            <input type="password" name="password" id="pass" placeholder="enter strong pass" minlength="10"
+                maxlength="20">
+        </div>
+        <hr>
+        <div>
+            <label for="mob">Mobile</label>
+            <br>
+            <input type="tel" name="mobile" id="mob" placeholder="+20 100 234 1234">
+        </div>
+        <hr>
+        <div>
+            <label for="mail">Email</label>
+            <br>
+            <input type="email" name="email" id="mail" required placeholder="enter vaild email">
+        </div>
+        <hr>
+        <div>
+            <label for="subject">Subject</label>
+            <br>
+            <input type="text" name="subject" id="subject" placeholder="enter valid subject">
+        </div>
+        <br>
+        <input type="submit" value="Send Data">
+        <input type="submit" value="Empty Form">
+    </form>
+</body>
+
+</html>
